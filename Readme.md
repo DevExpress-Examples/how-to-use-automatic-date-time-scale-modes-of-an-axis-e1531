@@ -3,20 +3,27 @@
 
 * [Form1.cs](./CS/DateTimeAggregation/Form1.cs) (VB: [Form1.vb](./VB/DateTimeAggregation/Form1.vb))
 <!-- default file list end -->
-# How to use automatic date-time scale modes of an axis
+# Charts - How to use automatic date-time scale modes of an axis
+
+This example demonstrates how to use **date-time scale modes** of an [axis](https://docs.devexpress.com/WindowsForms/5799/controls-and-libraries/chart-control/axes/axis-scale-types) (both manual and automatic).
 
 
-<p>This example demonstrates how to use <strong>date-time scale modes</strong> of an <a href="http://devexpress.com/Help/Content.aspx?help=XtraCharts&document=CustomDocument6016.htm"><u>axis</u></a> (both manual and automatic).</p>
+## Example Overview
 
+The data aggregation is enabled automatically for the date-time scale on the X-axis in both manual (default mode) and automatic scale modes.
+ 
 
-<h3>Description</h3>
+When the [ScaleOptionsBase.ScaleMode](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.ScaleOptionsBase.ScaleMode) property is set to `Manual`, you can manually define the [DateTimeScaleOptions.GridAlignment](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.DateTimeScaleOptions.GridAlignment), [DateTimeScaleOptions.MeasureUnit](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.DateTimeScaleOptions.MeasureUnit), and [ScaleGridOptionsBase.AggregateFunction](docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.ScaleGridOptionsBase.AggregateFunction) properties.
 
-The data aggregation is enabled automatically for the date-time scale on the X-axis in both manual (default mode) and automatic scale modes.<br />&nbsp;<br />
-<p>When the <a href="http://documentation.devexpress.com/#CoreLibraries/DevExpressXtraChartsScaleOptionsBase_ScaleModetopic"><u>ScaleOptionsBase.ScaleMode</u></a><u> </u>property is set to<strong> Manual</strong>, you can manually define the <a href="http://documentation.devexpress.com/#CoreLibraries/DevExpressXtraChartsDateTimeScaleOptions_GridAlignmenttopic"><u>DateTimeScaleOptions.GridAlignment</u></a>, <a href="http://documentation.devexpress.com/#CoreLibraries/DevExpressXtraChartsDateTimeScaleOptions_MeasureUnittopic"><u>DateTimeScaleOptions.MeasureUnit</u></a>, and <a href="http://documentation.devexpress.com/#CoreLibraries/DevExpressXtraChartsScaleOptionsBase_AggregateFunctiontopic"><u>ScaleOptionsBase.AggregateFunction</u></a> properties.</p>
-<p><br />To use the automatic date-time scale mode, set the <a href="http://documentation.devexpress.com/#CoreLibraries/DevExpressXtraChartsScaleOptionsBase_ScaleModetopic"><u>ScaleOptionsBase.ScaleMode</u></a> property to <strong>Automatic</strong> and choose the appropriate <strong>ScaleOptionsBase.AggregateFunction</strong>.</p>
-<p>If you wish axis scale is not divided into intervals and therefore aggregation cannot be applied to chart data, set the <strong>ScaleOptionsBase.ScaleMode</strong> property to <strong>Continuous</strong>.</p>
-<p><br />For more information on date-time scale modes, refer to <a href="http://documentation.devexpress.com/#WindowsForms/CustomDocument6247"><u>Date-Time Data Representation</u></a>.</p>
+To use the automatic date-time scale mode, set the [ScaleOptionsBase.ScaleMode](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.ScaleOptionsBase.ScaleMode) property to `Automatic` and choose the appropriate [ScaleGridOptionsBase.AggregateFunction](docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.ScaleGridOptionsBase.AggregateFunction).
 
-<br/>
+If you wish axis scale is not divided into intervals and therefore aggregation cannot be applied to chart data, set the [ScaleOptionsBase.ScaleMode](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.ScaleOptionsBase.ScaleMode) property to `Continuous`.
 
+## Documentation
 
+- [Axis Scale Types](https://docs.devexpress.com/WindowsForms/5799/controls-and-libraries/chart-control/axes/axis-scale-types)
+- [Data Aggregation](https://docs.devexpress.com/WindowsForms/6247/controls-and-libraries/chart-control/data-representation/data-aggregation)
+
+## More Examples
+
+- [How to obtain values calculated for automatic axis date-time scale modes](https://github.com/DevExpress-Examples/how-to-obtain-values-calculated-for-automatic-axis-date-time-scale-modes-e1529)
