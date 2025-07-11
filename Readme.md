@@ -5,9 +5,9 @@
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
 
-# Charts for WinForms - How to use automatic date-time scale modes of an axis
+# Charts for WinForms - Use automatic date-time scale modes of an axis
 
-This example demonstrates how to use **date-time scale modes** of an [axis](https://docs.devexpress.com/WindowsForms/5799/controls-and-libraries/chart-control/axes/axis-scale-types) (both manual and automatic).
+This example uses **date-time scale modes** of an [axis](https://docs.devexpress.com/WindowsForms/5799/controls-and-libraries/chart-control/axes/axis-scale-types) (both manual and automatic).
 
 The data aggregation is enabled automatically for the date-time scale on the X-axis in both manual (default mode) and automatic scale modes.
 
