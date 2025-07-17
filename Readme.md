@@ -26,9 +26,6 @@ If you wish axis scale is not divided into intervals and therefore aggregation c
 - [Axis Scale Types](https://docs.devexpress.com/WindowsForms/5799/controls-and-libraries/chart-control/axes/axis-scale-types)
 - [Data Aggregation](https://docs.devexpress.com/WindowsForms/6247/controls-and-libraries/chart-control/data-representation/data-aggregation)
 
-## More Examples
-
-- [How to obtain values calculated for automatic axis date-time scale modes](https://github.com/DevExpress-Examples/how-to-obtain-values-calculated-for-automatic-axis-date-time-scale-modes-e1529)
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
 
