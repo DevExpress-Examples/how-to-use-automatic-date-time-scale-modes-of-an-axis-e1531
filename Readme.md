@@ -5,17 +5,19 @@
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
 
-# Charts for WinForms - Use automatic date-time scale modes of an axis
+# Charts for WinForms - Date-Time Scale Modes of an Axis
 
-This example uses **date-time scale modes** of an [axis](https://docs.devexpress.com/WindowsForms/5799/controls-and-libraries/chart-control/axes/axis-scale-types) (both manual and automatic).
+This example demonstrates how to control and optimize the appearance of date‑time [axes](https://docs.devexpress.com/WindowsForms/5799/controls-and-libraries/chart-control/axes/axis-scale-types) in WinForms charts, particularly focused on managing data aggregation and scale presentation.
 
-The data aggregation is enabled automatically for the date-time scale on the X-axis in both manual (default mode) and automatic scale modes.
+The application displays combo boxes that allow you to change **date-time scale modes** of an [axis](https://docs.devexpress.com/WindowsForms/5799/controls-and-libraries/chart-control/axes/axis-scale-types).
 
-When the [ScaleOptionsBase.ScaleMode](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.ScaleOptionsBase.ScaleMode) property is set to `Manual`, you can manually define the [DateTimeScaleOptions.GridAlignment](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.DateTimeScaleOptions.GridAlignment), [DateTimeScaleOptions.MeasureUnit](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.DateTimeScaleOptions.MeasureUnit), and [ScaleGridOptionsBase.AggregateFunction](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.ScaleGridOptionsBase.AggregateFunction) properties.
+![Chart - Date-Time-intervals](chart-date-time-intervals.png)
 
-To use the automatic date-time scale mode, set the [ScaleOptionsBase.ScaleMode](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.ScaleOptionsBase.ScaleMode) property to `Automatic` and choose the appropriate [ScaleGridOptionsBase.AggregateFunction](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.ScaleGridOptionsBase.AggregateFunction).
+When the [ScaleOptionsBase.ScaleMode](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.ScaleOptionsBase.ScaleMode) property is set to `Manual`, you define the [DateTimeScaleOptions.GridAlignment](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.DateTimeScaleOptions.GridAlignment), [DateTimeScaleOptions.MeasureUnit](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.DateTimeScaleOptions.MeasureUnit), and [ScaleGridOptionsBase.AggregateFunction](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.ScaleGridOptionsBase.AggregateFunction) properties.
 
-If you wish axis scale is not divided into intervals and therefore aggregation cannot be applied to chart data, set the [ScaleOptionsBase.ScaleMode](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.ScaleOptionsBase.ScaleMode) property to `Continuous`.
+When the [ScaleOptionsBase.ScaleMode](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.ScaleOptionsBase.ScaleMode) property is set to `Automatic`, a chart uses automatic date-time scale mode and the appropriate [ScaleGridOptionsBase.AggregateFunction](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.ScaleGridOptionsBase.AggregateFunction).
+
+The date-time scale on the X-axis applies data aggregation automatically in `Manual` and `Automatic` modes. If you wish not to divide axis scale into intervals and do not apply aggregation to chart data, set the [ScaleOptionsBase.ScaleMode](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.ScaleOptionsBase.ScaleMode) property to `Continuous`.
 
 ## Files to Review
 
