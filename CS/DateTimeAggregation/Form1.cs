@@ -112,6 +112,7 @@ namespace DateTimeAggregation {
 
         void SetAxisXGridAuto() {
             AxisX.DateTimeScaleOptions.AutoGrid = true;
+            cbGridAlignment.SelectedIndex = 0;
         }
         void ScaleOptionConditions() {
             cbGridAlignment.Enabled = true;
