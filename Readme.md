@@ -36,7 +36,7 @@ The **Scale Mode** combo box specifies a scale mode for the X-axis:
 
 - **Continuous**
     
-    Disables axis intervals and data aggregation. You can specify the alignment of grid lines and labels to a specific date-time value.
+    Disables axis intervals and data aggregation. You can set the alignment of grid lines and labels to a specific date-time value.
     
     ```csharp
     AxisX.DateTimeScaleOptions.ScaleMode = ScaleMode.Continuous;
