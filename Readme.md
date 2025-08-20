@@ -21,7 +21,8 @@ The **Scale Mode** combo box specifies a scale mode for the X-axis:
     - [DateTimeScaleOptions.GridAlignment](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.DateTimeScaleOptions.GridAlignment) - specifies the alignment of grid lines and labels to a particular date-time value (e.g., start of month, start of year).
     - [DateTimeScaleOptions.MeasureUnit](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.DateTimeScaleOptions.MeasureUnit) - specifies the time unit (for example, day, month, year) used to measure intervals along the axis.
     - [ScaleGridOptionsBase.AggregateFunction](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.ScaleGridOptionsBase.AggregateFunction) - specifies the aggregate function (for example, MIN, MAX, AVG, SUM, etc.).
-    
+
+
     ```csharp
     AxisX.DateTimeScaleOptions.ScaleMode = ScaleMode.Manual;
     ```
